@@ -1,0 +1,26 @@
+#dictionary
+#key-value
+dict1={1:'a',2:'b',3:'c'}
+#mutable
+dict1[1]='z'
+print(dict1)
+dict1[4]='k'
+print(dict1)
+a=dict(name='kavya',age='20')
+print(a)
+#clear
+#copy
+#a.values()
+#a.keys()
+#a.pop(name)
+x=[1,2,3]
+y=['a','b','c']
+z=dict(zip(x,y))
+print(z)
+print(z.get(3,"no key found"))
+d1={1:'a',2:'b'}
+d2={3:'c',4:'d'}
+d1.update(d2)
+print(d1)
+d1.pop(1)
+print(d1)
